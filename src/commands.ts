@@ -67,7 +67,7 @@ export async function deployBuild(deployConfig: {
 }
 
 export async function installDeps(): Promise<string> {
-  writeToConsole('Installing dependencies 🏃')
+  writeToConsole('Installing dependencies 🏃🇵🇭🇵🇭🇵🇭')
   return await execute('npm install --legacy-peer-deps')
 }
 
