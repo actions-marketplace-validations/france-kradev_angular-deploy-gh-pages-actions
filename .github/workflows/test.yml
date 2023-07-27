@@ -32,7 +32,7 @@ jobs:
       uses: ./
       with:
         run_lint: true
-        github_access_token: ${{ secrets.ACCESS_TOKEN }}
+        github_access_token: ${{ secrets.GITHUB_TOKEN }}
         build_configuration: # The branch the action should deploy from.
         base_href: /angular-deploy-gh-pages-actions/
         deploy_branch: gh-pages # The branch the action should deploy to.
