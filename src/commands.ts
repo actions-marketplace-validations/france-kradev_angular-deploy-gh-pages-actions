@@ -68,7 +68,7 @@ export async function deployBuild(deployConfig: {
 
 export async function installDeps(): Promise<string> {
   writeToConsole('Installing dependencies 🏃')
-  return await execute('npm install')
+  return await execute('npm install --legacy-peer-deps')
 }
 
 export async function copyFile(from: string, to: string): Promise<void> {
