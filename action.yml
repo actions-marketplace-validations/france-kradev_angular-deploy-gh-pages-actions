@@ -1,10 +1,10 @@
-name: 'Angular Deploy gh-pages Actions'
+name: 'F-v2 Angular Gh-pages Actions'
 description: 'Github actions to automagically deploy your angular app to GitHub pages. '
 author: 'Muhammad Ahsan Ayaz (https://github.com/ahsanayaz)'
 branding:
   icon: 'package'
   color: 'red'
-  label: 'Angular Deploy gh-pages Actions'
+  label: 'Angular Deploy Actions'
 inputs:
   github_access_token:
     description: "Github access token token used to deploy on gh_pages. You can find it on Github."
